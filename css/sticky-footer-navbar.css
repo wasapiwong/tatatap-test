@@ -1,0 +1,116 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 0px;
+}
+.footer {
+	position: fixed;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: rgba( 128, 128, 128, 1.0 );
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+body > .container {
+  padding: 0px 0px 0px 0px;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+
+.footer > .container {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+code {
+  font-size: 80%;
+}
+
+.navbar-brand {
+	color: orange !important;
+}
+
+.navbar, .dropdown-menu {
+	background-color: rgba( 128, 128, 128, 0.8 );
+	color: white !important;
+}
+
+.dropdown-header {
+	color: orange;
+}
+
+li a {
+	text-decoration: none;
+	color: white !important;
+}
+
+li a:hover {
+	text-decoration: none;
+	color: black !important;
+}
+
+li.active a {
+	text-decoration: none;
+	color: black !important;
+}
+
+#first{
+	border: 0px solid #ff0000;	
+	background:url("../images/firstbg.jpg") no-repeat center top fixed;
+	-moz-background-size: contain;      /*for Firefox*/
+ 	-webkit-background-size: contain;   /*for Google Chrome¡BSafari*/
+ 	-o-background-size: contain;        /*for Opera*/
+	background-size: contain;					/*for IE */
+	height: 850px;
+	width:100%;
+	color: white;
+	margin: 0 auto;
+	padding: 0;
+}
+
+#second{
+	border: 0px solid #0000ff;	
+	background:url("../images/secondbg.jpg") no-repeat center bottom fixed;
+	-moz-background-size: contain;      /*for Firefox*/
+ 	-webkit-background-size: contain;   /*for Google Chrome¡BSafari*/
+ 	-o-background-size: contain;        /*for Opera*/
+	background-size: contain;					/*for IE */
+	height: 850px;
+	width:100%;
+	color: white;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0;
+}	
+
+ul.footer-navbar {
+	border: 0px solid #ff0000;
+	list-style-type: none;
+	margin: 0px 4px 0px 4px;
+	padding: 0px 4px 0px 4px;
+}
+
+ul.footer-navbar li {
+	border: 0px solid #000000;
+	display: inline-block;
+	text-align: center;
+	padding: 4px 0px 4px 0px;
+	width: 32.0%;
+	height: 60px;
+}
+
+img.footer-nav-icon {
+	height: 32px;
+	width: 32px;
+}
